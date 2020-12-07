@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BugMe Issue Tracker</title>
+    <link rel="stylesheet" href="issues.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="box1" class="grid-item">
+            <header>
+                <a href="index.html"><img src="bug.png" alt="Bug Picture" class="image1"></a>
+                <h1>BugMe Issue Tracker</h1>
+            </header>
+        </div>
+        <div id="box2" class="grid-item">
+            <main>
+                <div id="box3" class="grid-item">
+                    <h1>Issues</h1>
+                    <button id="btn"> Create New Issue</button>
+                </div>
+                <div id="filterBy">
+                    <label for="filter" id="filter">Filter by: </label>
+                    <button class="btn"> ALL</button>
+                    <button class="btn"> OPEN</button>
+                    <button class="btn"> MY TICKETS</button>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <th> Title</th>
+                            <th> Type</th>
+                            <th> Status</th>
+                            <th> Assigned To</th>
+                            <th> Created</th>
+                        </tr>
+                        <tr>
+                            <td> #100 XSS Vulnerability in Add User Form</td>
+                            <td> Bug</td>
+                            <td><button class="button button1">Open</button>
+                            </td>
+                            <td> Tom Brady</td>
+                            <td> 2019-11-01</td>
+                        </tr>
+                        <tr>
+                            <td> #23 Location Service isn't working</td>
+                            <td> Bug</td>
+                            <td><button class="button button2">Open</button>
+                            </td>
+                            <td> Jan Brady</td>
+                            <td> 2019-10-15</td>
+                        </tr>
+                        <tr>
+                            <td> #16 Setup Logger</td>
+                            <td> Proposal</td>
+                            <td><button class="button button3">Closed</button></td>
+                            <td> Marsha Brady</td>
+                            <td> 2019-8-10</td>
+                        </tr>
+                        <tr>
+                            <td> #50 Create API Documentation</td>
+                            <td> Proposal</td>
+                            <td><button class="button button4">In Progress</button></td>
+                            <td> Mike Brady</td>
+                            <td> 2019-10-29</td>
+                        </tr>
+                        <tr>
+                            <td> #24 Allow results to be sorted</td>
+                            <td> Proposal </td>
+                            <td><button class="button button5">In Progress</button></td>
+                            <td> Marcia Brady</td>
+                            <td> 2019-10-20</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+        </div>
+        <div id=" box4 " class="grid-item ">
+            <aside>
+                <ul>
+                <li class="home "><a href="Issues.html ">Home</a></li>
+                <li class="add "><a href="AddUser.html ">Add User</a></li>
+                <li class="new "><a href="CreateIssue.html">New Issue</a></li>
+                <li class="log "><a href="Index.html ">Logout</a></li>
+                </ul>
+
+            </aside>
+        </div>
+
+    </div>
+</body>
+
+</html>

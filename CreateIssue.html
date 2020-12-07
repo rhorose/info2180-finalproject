@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BugMe Issue Tracker</title>
+    <link rel="stylesheet" href="CreateIssue.css">
+</head>
+<body>
+    <div class="container">
+        <div id="box1" class ="grid-item">
+            <header>
+                <a href="index.html"><img src="bug.png" alt="Bug Picture" class="image1"></a>
+                <h1>BugMe Issue Tracker</h1>
+            </header>
+        </div>
+        <div id="box2"class="grid-item">
+            <main>
+                <h1>Create Issue</h1>
+                <label for="title"> Title</label> <br>
+                <input id="title" type="text" name="title" class="input" /> <br>
+                <label for="description"> Description</label> <br>
+                <input id="description" type="text" name="description" class="description" /> <br>
+                <label for="assigned"> Assigned To</label> <br>
+                <select name="assigned" id="assigned"> <br>
+                    <!--List names all names from the database-->
+                    <option value="names"> </option> 
+                </select> <br>
+                <label for="type"> Type</label> <br>
+                <select name ="type" id ="type"> <br>
+                    <option value="Bug">Bug</option> 
+                    <option value="Proposal">Proposal</option> 
+                    <option value="Task">Task</option> 
+                </select> <br>
+                <label for="priority"> Priority</label> <br>
+                <select name ="priority" id ="priority">
+                    <option value="Minor">Minor</option>
+                    <option value="Major">Major</option>
+                    <option value="Critical">Critical</option>
+                </select> <br>
+                
+                <button type="submit" class="btn"> Submit</button>
+            </main>
+        </div>
+        <div id="box3" class="grid-item">
+            <aside>
+                <li class="home "><a href="Issues.html ">Home</a></li>
+                <li class="add "><a href="AddUser.html ">Add User</a></li>
+                <li class="new "><a href="CreateIssue.html">New Issue</a></li>
+                <li class="log "><a href="Index.html ">Logout</a></li>
+            </aside>
+        </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,97 @@
+header{
+    color: #ffffff;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.image1{
+
+    height: 45px;
+    width: 45px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+  
+}
+
+
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: 250px auto;
+    grid-template-rows: auto;
+    column-gap: 15px;
+
+}
+
+.container #box1{
+    grid-column: 1/3;
+}
+.container #box2{
+    grid-row: 2/3;
+    grid-column: 2;
+}
+
+.container #box3{
+    grid-row: 2;
+    flex-direction: column;
+    background-color: #F0F0F0; 
+
+}
+.container .navbar{
+    grid-column: 3/3;
+    grid-row: 2/3;
+    background-color: #F0F0F0;
+    height: 200px;
+    text-align: left;
+
+    
+
+}
+.container .btns{
+    grid-column: 3;
+    grid-row: 3/3;
+
+}
+
+
+.home{
+
+    list-style-image: url(home1.png );
+    
+}
+.add{
+
+    list-style-image: url(add.png );
+    
+}
+.new{
+
+    list-style-image: url(adduser.png );
+    
+}
+.log{
+
+    list-style-image: url(logout.png );
+    
+}
+
+.btn1{
+
+    margin-bottom: 10px;
+    background-color:#1B6AC9;
+    color: #ffffff;
+    width: 115px;
+}
+.btn2{
+    background-color: #23af2f;
+    color: #ffffff;
+
+}
+
+html{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif;S
+}
